@@ -1,7 +1,5 @@
-![Tutorial Banner](/images/tutorial.png)
-
-<p></p>
-
+<img src="/images/tutorial.png">
+<p> 
 <b>COLDFUSION FMP TUTORIAL</b>
 <p>
 If you are intested in the stock market, and want to do some FINANCIAL MODELING, then <a href="https://financialmodelingprep.com/developer/docs" target=:_blank">
@@ -28,6 +26,7 @@ The Porfolio program noramlly would pull data (symbol, company, shares, and cost
 <p>
 If you copy and paste the portfolio program, and the get_price program into your editor and upload them to a Coldfusion server, this is the output to expect.
 <p>
-
+<img src="/images/portfolio.png">
+<p>
 
   
