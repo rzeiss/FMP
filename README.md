@@ -28,5 +28,11 @@ The Porfolio program noramlly would pull data (symbol, company, shares, and cost
 <p>
 <img src="/images/portfolio.png" width="600">
 <p>
+As the program loops thru the stocks pre loaded in the arrays, it runs the included program <b>GET_PRICE.CFM</B> on line 87.  This goes out to FMP and executes a SHORT-QUOTE function that returns a variable named <b>"theprice"</b>.  <b>"theprice"</b> is then used to calculate gain and percent gain, as well as the grand totals.
+<p>
+It's easy, and it's fast.
+<p>
+  <h2>The CFHTTP Tag</h2>  coming soon... 
+ 
 
   
