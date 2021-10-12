@@ -2,7 +2,8 @@
 <p>
 <b>COLDFUSION FMP TUTORIAL</b>
 <p>
-If you are intested in the stock market, and want to do some FINANCIAL MODELING... FMP will provide all the data you will ever need. It is a great resource that can be used with many web programming languages.  This is aoubt how to use FMP with Coldfusion.
+If you are intested in the stock market, and want to do some FINANCIAL MODELING... <a href="https://financialmodelingprep.com/developer/docs" target=:_blank">
+  FMP</a> will provide all the data you will ever need. It is a great resource that can be used with many web programming languages.  This is aoubt how to use FMP with Coldfusion.
 <p>
 FMP (Financial Modeling Prep) provides access to over 20,000 publicly traded companies.<br>
 The objective of this project is to demonstrate how to use the FMP data in a Coldfusion environment to retrieve stock prices, earnings reports, financial statements, and much more.
