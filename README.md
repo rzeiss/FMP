@@ -1,11 +1,6 @@
-- 👋 Hi, I’m @rzeiss
-- 👀 I’m interested in Coldfusion, Arduinos and golf.
-- 🌱 I’m currently learning arduino programming
-- 💞️ I’m looking to collaborate on sound measurements
-- I am working on a tutorial for using FMP.
-- 📫 How to reach me rzeiss@att.net
-
-<!---
-rzeiss/rzeiss is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<b>COLDFUSION FMP TUTORIAL</b>
+<p>
+FMP (Financial Modeling Prep) provides access to over 20,000 publicly traded companies.<br>
+The objective of this project is to demonstrate how to use the FMP data in a Coldfusion environment to retrieve stock prices, earnings reports, financial statements, and much more.
+<p>
+I explain how to do it, and offer some CF code examples that can easily be implemented by anyone that is familiar with Coldfusion.
