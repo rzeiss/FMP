@@ -24,7 +24,7 @@ In the file list you will find code for a Coldfusion program called <b>"Portfoli
 <p>
 The Porfolio program noramlly would pull data (symbol, company, shares, and cost per share) from a database connected to the portfolio program.  But, for the sake of simplicity I have manually filled arrays for each of the portfolio fields, EXCEPT for the PRICE.  The PRICE will be obtained on the fly from FMP, so that it is the current price.  Thus the output from the portfolio program will reflect current prices and gains.
 <p>
-If you copy and paste the portfolio program, and the get_price program into your editor and upload them to a Coldfusion server, this is the output to expect.
+  If you copy and paste the <b>portfolio</b> and the <b>get_price</b> programs into your editor and upload them to a Coldfusion server, this is the output to expect.
 <p>
 <img src="/images/portfolio.png">
 <p>
