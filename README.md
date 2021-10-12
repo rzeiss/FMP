@@ -1,6 +1,7 @@
 ![Tutorial Banner](/images/tutorial.png)
-![Portfolio Capture](/images/portfolio.png)
+
 <p>
+  ![Portfolio Capture](/images/portfolio.png)
 <b>COLDFUSION FMP TUTORIAL</b>
 <p>
 If you are intested in the stock market, and want to do some FINANCIAL MODELING, then <a href="https://financialmodelingprep.com/developer/docs" target=:_blank">
