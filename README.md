@@ -18,3 +18,14 @@ https://financialmodelingprep.com/developer/docs
 <p>
 There are hundreds of functions available to retrieve financial data on American and foreign companies.  Once you capture the data it can be used for examining what has happened in the past, or even what may happen in the future, if your model is capable of such a prediction.
 <p>
+<b>PORTFOLIO EXAMPLE</b>
+<p>
+In the file list you will find code for a Coldfusion program called <b>"Portfolio.cfm"</b>.  This is just a simple example of how to use the <b>"get_price.cfm"</b> program as an include or subroutine to fetch a stock price from <b>FMP</b>.
+<p>
+The Porfolio program noramlly would pull data (symbol, company, shares, and cost per share) from a database connected to the portfolio program.  But, for the sake of simplicity I have manually filled arrays for each of the portfolio fields, EXCEPT for the PRICE.  The PRICE will be obtained on the fly from FMP, so that it is the current price.  Thus the output from the portfolio program will reflect current prices and gains.
+<p>
+If you copy and paste the portfolio program, and the get_price program into your editor and upload them to a Coldfusion server, this is the output to expect.
+<p>
+![Portfolio](/images/portfolio.png)
+<p>
+  
