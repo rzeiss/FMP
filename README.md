@@ -1,3 +1,5 @@
+![Tutorial Banner](/images/tutorial.png)
+<p>
 <b>COLDFUSION FMP TUTORIAL</b>
 <p>
 FMP (Financial Modeling Prep) provides access to over 20,000 publicly traded companies.<br>
