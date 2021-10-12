@@ -1,4 +1,5 @@
 ![Tutorial Banner](/images/tutorial.png)
+![Portfolio Capture](/images/portfolio.png)
 <p>
 <b>COLDFUSION FMP TUTORIAL</b>
 <p>
@@ -26,6 +27,6 @@ The Porfolio program noramlly would pull data (symbol, company, shares, and cost
 <p>
 If you copy and paste the portfolio program, and the get_price program into your editor and upload them to a Coldfusion server, this is the output to expect.
 <p>
-![Portfolio Capture](/images/portfolio.png)
+
 
   
