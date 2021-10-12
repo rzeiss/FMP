@@ -1,6 +1,6 @@
 <img src="/images/tutorial.png">
 <p> 
-<b>COLDFUSION FMP TUTORIAL</b>
+<h2>COLDFUSION FMP TUTORIAL</h2>
 <p>
 If you are intested in the stock market, and want to do some FINANCIAL MODELING, then <a href="https://financialmodelingprep.com/developer/docs" target=:_blank">
   FMP</a> will provide all the data you will ever need. It is a great resource that can be used with many web programming languages.  This is about how to use FMP with Coldfusion.
@@ -18,7 +18,7 @@ https://financialmodelingprep.com/developer/docs
 <p>
 There are hundreds of functions available to retrieve financial data on American and foreign companies.  Once you capture the data it can be used for examining what has happened in the past, or even what may happen in the future, if your model is capable of such a prediction.
 <p>
-<b>PORTFOLIO EXAMPLE</b>
+  <h2>PORTFOLIO EXAMPLE</h2>
 <p>
 In the file list you will find code for a Coldfusion program called <b>"Portfolio.cfm"</b>.  This is just a simple example of how to use the <b>"get_price.cfm"</b> program as an include or subroutine to fetch a stock price from <b>FMP</b>.
 <p>
@@ -26,7 +26,7 @@ The Porfolio program noramlly would pull data (symbol, company, shares, and cost
 <p>
   If you copy and paste the <b>portfolio</b> and the <b>get_price</b> programs into your editor and upload them to a Coldfusion server, this is the output to expect.
 <p>
-<img src="/images/portfolio.png">
+<img src="/images/portfolio.png" width="600">
 <p>
 
   
