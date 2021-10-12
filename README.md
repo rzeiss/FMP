@@ -2,6 +2,7 @@
 - 👀 I’m interested in Coldfusion, Arduinos and golf.
 - 🌱 I’m currently learning arduino programming
 - 💞️ I’m looking to collaborate on sound measurements
+- I am working on a tutorial for using FMP.
 - 📫 How to reach me rzeiss@att.net
 
 <!---
