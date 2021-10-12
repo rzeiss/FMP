@@ -32,7 +32,7 @@ As the program loops thru the stocks pre loaded in the arrays, it runs the inclu
 <p>
 It's easy, and it's fast.
 <p>
-  <h2>The CFHTTP Tag</h2>  coming soon... 
+  <h2>The FMP Response</h2>  coming soon... 
  
 
   
