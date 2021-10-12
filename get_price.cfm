@@ -1,5 +1,5 @@
 <!--- /////////////////////////////////  get_price.cfm  //////////////////////////////// --->
-<!--- THIS IS AN INCLUDE THAT RETURNS A STOCK PRICE - SYM MUST BE PASSED IN --->
+<!--- THIS IS AN INCLUDE THAT RETURNS A SHORT-QUOTE STOCK PRICE - SYM MUST BE PASSED IN --->
 <!--- THE VARIABLE "THEPRICE" WILL BE RETURNED --->
 <!--- ////////////////////////////////////////////////////////////////////////////////// --->
 <cfparam name="sym" default="">
@@ -10,7 +10,7 @@
 	result="result" 
 	method="GET" 
 	charset="utf-8" 
-	url="https://financialmodelingprep.com/api/v3/quote-short/#sym#?apikey=795614daf5698f32ac1f42ca114a50e2">
+	url="https://financialmodelingprep.com/api/v3/quote-short/#sym#?apikey=PutYourAPIKeyHere">
 	<cfhttpparam name="q" type="url" value="cfml">
 	</cfhttp>
 
