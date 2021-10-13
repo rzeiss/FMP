@@ -70,7 +70,7 @@ Let's discuss the above code.
 <li> On Line 3, <b>Result</b> will contain whatever FMP returns as a response.
 <li> On Line 6, don't forget to put in your own API Key.
 <li> On Line 9, the Coldfusion function.. <b>DeSerializeJSON</b>, does it's magic and converts the JSON response in to an array with structures.
-<li> Also on Line 9, the <b>Result.FileContent</b> variable contains the array that has been returned in the response for the <b>FileContent</b>.
+<li> Also on Line 9, the <b>Result.FileContent</b> variable contains the array that has been returned in the response for the <b>FileContent</b> structure key.
 </ul>
 <p>  
  
