@@ -47,12 +47,14 @@ It Generates an HTTP request and parses the response from the server.  It return
 <li> header: All the http response headers as a single string.
 </ul>
 <p>
-<b><u>FILE CONTENT</u></b> - Assuming there are no errors in this exchange, the part of the HTTP request we are interested in is the <b>FILE CONTENT</b>.  The File Content will contain an array that contains a structure.  In some cases the structure may contain another array or a "child" array.
+<b><u>FILE CONTENT</u></b> - Assuming there are no errors in this exchange, the part of the HTTP response we are interested in is the <b>FILE CONTENT</b>.  The File Content will contain an array that contains a structure.  In some cases the structure may contain another array or a "child" array.
 <p>
 <table cellspacing="50"><tr>
-  <td>image1</td>
-  <td>image2</td>
-  <td>image3</td>
+  <td valign="bottom" align="center"><img src="/images/one-array.png"><br>Single Array</td>
+  <td> </td>
+  <td valign="bottom" align="center"><img src="/images/two-array.png"><br>Two Arrays</td>
+  <td> </td>
+  <td valign="bottom" align="center"><img src="/images/child-array.png"><br>Child Array</td>
   </tr></table>
 <p>
   
