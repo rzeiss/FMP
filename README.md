@@ -49,7 +49,13 @@ It Generates an HTTP request and parses the response from the server.  It return
 <p>
 <b><u>FILE CONTENT</u></b> - Assuming there are no errors in this exchange, the part of the HTTP request we are interested in is the <b>FILE CONTENT</b>.  The File Content will contain an array that contains a structure.  In some cases the structure may contain another array or a "child" array.
 <p>
-
+<table cellspacing="50"><tr>
+  <td>image1</td>
+  <td>image2</td>
+  <td>image3</td>
+  </tr></table>
+<p>
+  
  
 
   
