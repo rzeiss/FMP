@@ -52,9 +52,9 @@ It Generates an HTTP request and parses the response from the server.  It return
 <table cellspacing="50"><tr>
   <td valign="bottom" align="center"><img src="/images/one-array.png"><br>Single Array</td>
   <td> </td>
-  <td valign="bottom" align="center"><img src="/images/two-array.png"><br>Two Arrays</td>
+  <td valign="bottom" align="center"><img src="/images/twoarray.png"><br>Two Arrays</td>
   <td> </td>
-  <td valign="bottom" align="center"><img src="/images/child-array.png"><br>Child Array</td>
+  <td valign="bottom" align="center"><img src="/images/childarray.png"><br>Child Array</td>
   </tr></table>
 <p>
 These are the types of arrays returned.  Some arrays have just one element [1], like the Single Array above. Others may have several or hundreds of Array elements.
