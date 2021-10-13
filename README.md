@@ -24,7 +24,7 @@ In the file list you will find code for a Coldfusion program called <b>"Portfoli
 <p>
 The Porfolio program noramlly would pull data (symbol, company, shares, and cost per share) from a database connected to the portfolio program.  But, for the sake of simplicity I have manually filled arrays for each of the portfolio fields, EXCEPT for the PRICE.  The PRICE will be obtained on the fly from FMP, so that it is the current price.  Thus the output from the portfolio program will reflect current prices and gains.
 <p>
-  If you copy and paste the <b>portfolio</b> and the <b>get_price</b> programs into your editor and upload them to a Coldfusion server, this is the output to expect.
+  If you copy and paste the <b>portfolio</b> and the <b>get_price</b> programs into your editor and upload them to a Coldfusion server, this is the output to expect.  The source code for the Portfolio.cfm program is contained in the file list. Examine it so you know how it works.
 <p>
 <img src="/images/theportfolio.png" width="600">
 <p>
@@ -38,7 +38,7 @@ It's easy, and it's fast.
 It Generates an HTTP request and parses the response from the server.  It returns a structure containing these keys...
 <ul>
 <li> statusCode: The HTTP response code and reason string.
-<li> fileContent: The body of the HTTP response. Usually an array.
+  <li> <b>fileContent</b>: The body of the HTTP response. Usually an array.
 <li> responseHeader: A structure of response headers.
 <li> errorDetail: An error message if applicable.
 <li> mimeType: The mime type returned in the Content-Type response header.
