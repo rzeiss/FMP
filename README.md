@@ -32,7 +32,24 @@ As the program loops thru the stocks pre loaded in the arrays, it runs the inclu
 <p>
 It's easy, and it's fast.
 <p>
-  <h2>The FMP Response</h2>  coming soon... 
+<h2>The FMP Response</h2>
+<p>
+<b><u>CFHTTP</u></b> - To get a respose from the FMP server, a request has to be sent to it first.  In Coldfusion the tag that sends HTTP request to a URL is the <b>CFHTTP</b> tag.
+It Generates an HTTP request and parses the response from the server.  It returns a structure containing these keys...
+<ul>
+<li> statusCode: The HTTP response code and reason string.
+<li> fileContent: The body of the HTTP response. Usually an array.
+<li> responseHeader: A structure of response headers.
+<li> errorDetail: An error message if applicable.
+<li> mimeType: The mime type returned in the Content-Type response header.
+<li> text: a boolean indicating if the response body is text or binary.
+<li> charset: The character set returned in the Content-Type header.
+<li> header: All the http response headers as a single string.
+</ul>
+<p>
+<b><u>FILE CONTENT</u></b> - Assuming there are no errors in this exchange, the part of the HTTP request we are interested in is the <b>FILE CONTENT</b>.  The File Content will contain an array that contains a structure.  In some cases the structure may contain another array or a "child" array.
+<p>
+
  
 
   
