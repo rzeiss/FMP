@@ -64,7 +64,15 @@ The Two Arrays shown above contains another structure (peerslist) that has a chi
 <p>
 <img src="/images/request.png" width="600">
 <p>
-  
+Let's discuss the above code.
+<ul>
+<li> Line 2 is the beginning of the CFHTTP request.
+<li> On Line 3, <b>Result</b> will contain whatever FMP returns as a response.
+<li> On Line 6, don't forget to put in your own API Key.
+<li> On Line 9, the Coldfusion function.. <b>DeSerializeJSON</b>, does it's magic and converts the JSON response in to an array with structures.
+<li> Also on Line 9, the <b>Result.FileContent</b> variable contains the array that has been returned in the response for the <b>FileContent</b>.
+</ul>
+<p>  
  
 
   
