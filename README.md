@@ -74,6 +74,9 @@ Let's discuss the above code.
 <li> On Line 10, the CFDUMP function, displays the MyData array and it's structures and child arrays, if it has any.
 </ul>
 <p>  
- 
+<b><u>RESPONSE EXPLORATION</u></b> - Becuase none of us have probably tried all of the FMP functions, we really don't know what we are going to get back as a response.
+So, we have to "Explore" a bit, before we can write the code we need to capture or display the data that is returned from FMP.
+<p>
+
 
   
