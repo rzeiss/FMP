@@ -71,6 +71,7 @@ Let's discuss the above code.
 <li> On Line 6, don't forget to put in your own API Key.
 <li> On Line 9, the Coldfusion function.. <b>DeSerializeJSON</b>, does it's magic and converts the JSON response in to an array with structures.
 <li> Also on Line 9, the <b>Result.FileContent</b> variable contains the array that has been returned in the response for the <b>FileContent</b> structure key.
+<li> On Line 10, the CFDUMP function, displays the MyData array and it's structures and child arrays, if it has any.
 </ul>
 <p>  
  
