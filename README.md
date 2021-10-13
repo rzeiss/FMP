@@ -57,7 +57,11 @@ It Generates an HTTP request and parses the response from the server.  It return
   <td valign="bottom" align="center"><img src="/images/child-array.png"><br>Child Array</td>
   </tr></table>
 <p>
-<b><u>MAKING A REQUEST</u></b> - 
+<b><u>MAKING A REQUEST</u></b> - Use the code shown below.  This happens to be a PEERS request for General Motors (GM).
+<p>
+<img src="/images/request.png" width="600">
+<p>
+  
  
 
   
