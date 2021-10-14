@@ -47,16 +47,16 @@ will be manually loaded.   We'll use FMP to get the stock prices.
 --->
 
 <cfset symbol[1]="IBM">      <cfset company[1]="IBM Corp">
-<cfset symbol[2]="F">           <cfset company[2]="Ford">
-<cfset symbol[3]="GE">        <cfset company[3]="General Electric">
-<cfset symbol[4]="T">           <cfset company[4]="AT&T">
-<cfset symbol[5]="C">           <cfset company[5]="City Group">
+<cfset symbol[2]="F">        <cfset company[2]="Ford">
+<cfset symbol[3]="GE">       <cfset company[3]="General Electric">
+<cfset symbol[4]="T">        <cfset company[4]="AT&T">
+<cfset symbol[5]="C">        <cfset company[5]="City Group">
 
-<cfset shares[1]=100>           <cfset cost[1]=118.70>
-<cfset shares[2]=500>            <cfset cost[2]=7.50>
-<cfset shares[3]=200>           <cfset cost[3]=47.10>
-<cfset shares[4]=300>           <cfset cost[4]=25.80>
-<cfset shares[5]=200>           <cfset cost[5]=41.50>
+<cfset shares[1]=100>        <cfset cost[1]=118.70>
+<cfset shares[2]=500>        <cfset cost[2]=7.50>
+<cfset shares[3]=200>        <cfset cost[3]=47.10>
+<cfset shares[4]=300>        <cfset cost[4]=25.80>
+<cfset shares[5]=200>        <cfset cost[5]=41.50>
 
 <br><br>
 <div align="center" class="title">Example Portfolio with FMP Pricing</div>
@@ -126,11 +126,7 @@ will be manually loaded.   We'll use FMP to get the stock prices.
 <!--- add last row to show the grand totals --->
 <cfoutput>
 <tr>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td colspan="4"></td>
 	<td align="right"><b>#numberformat(gtot_cost,'_,___,___.__')#</b></td>
 	<td align="right"><b>#numberformat(gtot_val,'_,___,___.__')#</b></td>
 	<td align="right"><b>#numberformat(gtot_gain,'_,___,___.__')#</b></td>
