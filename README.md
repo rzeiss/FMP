@@ -90,7 +90,7 @@ Price is mydata[1].price,  volume is mydata[1].volume, and the symbol is mydata[
 <p>
 In the case of the STOCK PEERS response, the stock symbols for the Peers are... mydata[1].peerlist[x] where x goes from 1 to 10.  So once the FMP response is explored, and you know what it will return, then the data from FMP can be used for financial analysis and modeling.  There is so much data available that there is no limit on what can be done.
 <p>
-FPM Rocks!! and ColdFusion makes it easy to obtain the data and manipulate it as desired.
+FMP Rocks!! and ColdFusion makes it easy to obtain the data and manipulate it as desired.
 <p>
                                                       /////////////////////////  END ////////////////////////
  
