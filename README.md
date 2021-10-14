@@ -92,8 +92,8 @@ In the case of the STOCK PEERS response, the stock symbols for the Peers are... 
 <p>
 FPM Rocks!! and ColdFusion makes it easy to obtain the data and manipulate it as desired.
 <p>
-/////////////////////////  END ////////////////////////
+                                                      /////////////////////////  END ////////////////////////
  
-<
+
 
   
