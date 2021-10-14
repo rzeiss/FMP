@@ -72,7 +72,7 @@ Let's discuss the above code.
 <li> On Line 9, the Coldfusion function.. <b>DeSerializeJSON</b>, does it's magic and converts the JSON response in to an array with structures.
 <li> Also on Line 9, the <b>Result.FileContent</b> variable contains the array that has been returned in the response for the <b>FileContent</b> structure key.
 <li> On Line 10, the CFDUMP function, displays the MyData array and it's structures and child arrays, if it has any.
-<li> Of course the URL for the CFHTTP will change for different FMP requests, like STOCK QUOTE, Earnings, Dividends, etc.
+<li> Of course the URL, on Line 6, for the CFHTTP will change for different FMP requests, like STOCK QUOTE, Earnings, Dividends, etc.
 </ul>
 <p>  
 <b><u>RESPONSE EXPLORATION</u></b> - Because none of us have probably tried all of the FMP functions, we really don't know what we are going to get back as a response.
