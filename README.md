@@ -80,6 +80,20 @@ So, we have to "Explore" a bit, before we can write the code we need to capture 
 <p>
 We do this by running the "response.cfm" program that is discussed above.  We want to see what the CFDUMP shows us. Is there a child array? Does the main array have multiple elements.. 1, 2, 3,... ?, what are the names of the structure keys we are interested in using, and what is the name of the child array, if there is one.  All good questions, that we must EXPLORE before we can write our final code.  <i>The code for exploring the STOCK PEERS response for GM is in the file list... <b>peers_response.cfm</b></i>
 <p>
-
+<b><u>GETTING A STOCK QUOTE</u></b> - THE center portion of the URL for a STOCK QUOTE is /api/v3/quote-short/#sym#.   The response from FMP for General Motors (GM) is..
+<p>
+<img src="/images/one-array.png">
+<p>
+We get back an array with one element and a structure containing the Price, Volume, and Symbol.  We can refer to each of them in parent-child notation.
+<p>
+Price is mydata[1].price,  volume is mydata[1].volume, and the symbol is mydata[1].symbol.  In the "get_price.cfm" program, I set "theprice" equal to mydata[1].price.  Then it s available in Coldfusion for doing calculations or just displaying it on the screen.  (See portfolio.cfm for how to use the get_price.cfm program.)
+<p>
+In the case of the STOCK PEERS response, the stock symbols for the Peers are... mydata[1].peerlist[x] where x goes from 1 to 10.  So once the FMP response is explored, and you know what it will return, then the data from FMP can be used for financial analysis and modeling.  There is so much data available that there is no limit on what can be done.
+<p>
+FPM Rocks!! and ColdFusion makes it easy to obtain the data and manipulate it as desired.
+<p>
+/////////////////////////  END ////////////////////////
+ 
+<
 
   
