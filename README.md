@@ -77,7 +77,7 @@ Let's discuss the above code.
 <b><u>RESPONSE EXPLORATION</u></b> - Because none of us have probably tried all of the FMP functions, we really don't know what we are going to get back as a response.
 So, we have to "Explore" a bit, before we can write the code we need to capture or display the data that is returned from FMP.
 <p>
-We do this by running the "response.cfm" program that is discussed above.  We want to see what the CFDUMP shows us. Is there a child array? Does the main array have multiple elements.. 1, 2, 3,... ?, what are the names of the structure keys we are interested in using, and what is the name of the child array, if there is one.  All good questions, that we must EXPLORE before we can write our final code.  <i>The code for exploring the STOCK PEERS for GM is in the file list... <b>peers_response.cfm</b></i>
+We do this by running the "response.cfm" program that is discussed above.  We want to see what the CFDUMP shows us. Is there a child array? Does the main array have multiple elements.. 1, 2, 3,... ?, what are the names of the structure keys we are interested in using, and what is the name of the child array, if there is one.  All good questions, that we must EXPLORE before we can write our final code.  <i>The code for exploring the STOCK PEERS response for GM is in the file list... <b>peers_response.cfm</b></i>
 <p>
 
 
