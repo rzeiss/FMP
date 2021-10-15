@@ -60,11 +60,11 @@ It Generates an HTTP request and parses the response from the server.  It return
 These are the types of arrays returned.  Some arrays have just one element [1], like the Single Array above. Others may have several or hundreds of Array elements.
 The Two Arrays shown above contains another structure (peerslist) that has a child array inside of it.  We can access all the data in these arrays.
 <p>
-<b><u>MAKING A REQUEST</u></b> - Use the code shown below.  This happens to be a STOCK PEERS request for General Motors (GM).  <i>The response returned was the "Two Arrays" shown above.</i>
+<b><u>MAKING A REQUEST</u></b> - Use the code shown below (request.cfm).  This happens to be a STOCK PEERS request for General Motors (GM).  <i>The response returned was the "Two Arrays" shown above.</i>
 <p>
 <img src="/images/request.png" width="600">
 <p>
-Let's discuss the above code.
+Let's discuss the above code. (request.cfm is in the file list)
 <ul>
 <li> Line 2 is the beginning of the CFHTTP request.
 <li> On Line 3, <b>Result</b> will contain whatever FMP returns as a response.
@@ -78,7 +78,7 @@ Let's discuss the above code.
 <b><u>RESPONSE EXPLORATION</u></b> - Because none of us have probably tried all of the FMP functions, we really don't know what we are going to get back as a response.
 So, we have to "Explore" a bit, before we can write the code we need to capture or display the data that is returned from FMP.
 <p>
-We do this by running the "response.cfm" program that is discussed above.  We want to see what the CFDUMP shows us. Is there a child array? Does the main array have multiple elements.. 1, 2, 3,... ?, what are the names of the structure keys we are interested in using, and what is the name of the child array, if there is one.  All good questions, that we must EXPLORE before we can write our final code.  <i>The code for exploring the STOCK PEERS response for GM is in the file list... <b>peers_response.cfm</b></i>
+We do this by running the "request.cfm" program that is discussed above (or you can run "response.cfm").  We want to see what the CFDUMP shows us. Is there a child array? Does the main array have multiple elements.. 1, 2, 3,... ?, what are the names of the structure keys we are interested in using, and what is the name of the child array, if there is one.  All good questions, that we must EXPLORE before we can write our final code.  <i>The code for exploring the STOCK PEERS response for GM is in the file list... <b>peers_response.cfm</b></i>
 <p>
 <b><u>GETTING A STOCK QUOTE</u></b> - THE center portion of the URL for a STOCK QUOTE is /api/v3/quote-short/#sym#.   The response from FMP for General Motors (GM) is..
 <p>
