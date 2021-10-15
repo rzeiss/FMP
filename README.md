@@ -16,7 +16,7 @@ If you wish to explore what can be done with <b>FMP</b>, then visit their docume
 <br>  
 https://financialmodelingprep.com/developer/docs
 <p>
-There are hundreds of functions available to retrieve financial data on American and foreign companies.  Once you capture the data it can be used for examining what has happened in the past, or even what may happen in the future, if your model is capable of such a prediction.
+There are hundreds of functions, endpoints, available to retrieve financial data on American and foreign companies.  Once you capture the data it can be used for examining what has happened in the past, or even what may happen in the future, if your model is capable of such a prediction.
 <p>
   <h2>PORTFOLIO EXAMPLE</h2>
 <p>
