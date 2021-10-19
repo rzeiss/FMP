@@ -55,6 +55,8 @@ It Generates an HTTP request and parses the response from the server.  It return
   <td valign="bottom" align="center"><img src="/images/twoarray.png"><br>Two Arrays</td>
   <td> </td>
   <td valign="bottom" align="center"><img src="/images/childarray.png"><br>Child Array</td>
+  <td> </td>
+  <td valign="bottom" align="center"><img src="/images/child-structure.png"><br>Child Structure</td>
   </tr></table>
 <p>
 These are the types of arrays returned.  Some arrays have just one element [1], like the Single Array above. Others may have several or hundreds of Array elements.
@@ -89,6 +91,8 @@ We get back an array with one element and a structure containing the Price, Volu
 Price is mydata[1].price,  volume is mydata[1].volume, and the symbol is mydata[1].symbol.  In the "get_price.cfm" program, I set "theprice" equal to mydata[1].price.  Then it s available in Coldfusion for doing calculations or just displaying it on the screen.  (See portfolio.cfm for how to use the get_price.cfm program.)
 <p>
 In the case of the STOCK PEERS response, the stock symbols for the Peers are... mydata[1].peerlist[x] where x goes from 1 to 10.  So once the FMP response is explored, and you know what it will return, then the data from FMP can be used for financial analysis and modeling.  There is so much data available that there is no limit on what can be done.
+<p>
+In the case where the response contains a CHILD STRUCTURE, as shown above, the code to capture the data is a little different.  For example, if you want to get the CLOSE price from the Child Structure, then use this... <b>mydata.historical[1].close</b>.  The name of the child structure was returned as "historical".  This will return a value of 56.89. This request was for "Historical Daily Prices with Change and Volume Interval" as specified in the FMP API documentation.  But I only wanted the close price for 10/18/2020, so I only put in one date.  Using the Coldfusion DateAdd function, you can go back to any date you wish.
 <p>
 FMP Rocks!! and ColdFusion makes it easy to obtain the data and manipulate it as desired.
 <p>
